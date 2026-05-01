@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+    <!--
+    Exemplo de uso de algumas tags semanticas
+    -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semantico</title>
+</head>
+<body>
+    <h1>Semantica HTML</h1>
+    <!--Exemplo de uso da tag <header>, é onde ficam as informaçoes do cabeçalho do nosso site. Além disso o uso da tag <code> para indicar que o campo dentro deles é de código, permitindo que usemos códigos para referenciar algumas teclas que nao seriam possiveis sem ele-->
+    <header>
+        <p>
+            Tudo o que é do cabeçalho de um site fica dentro da tag <code>&lt;header&gt;</p>
+        </p>
+    <!--Tag <nav> é usada para indicar campos de navegaçao do site, funcionando como uma lista-->
+        <nav>
+            <a href="">Link | </a>
+            <a href="">Link</a>
+        </nav>
+    </header>
+    <!--Exemplo de uso da tag <main>, onde ficará toda a informaçao principal do nosso site. Não é recomendado colocar o header e o footer dentro da mesma-->
+    <main>
+        <!--Separamos as sessões do site com a tag <section>-->
+            <section>
+                <h2>Titutlo da minha sessão</h2>
+                <!--Usamos a div para separar os campos da nossa sessão, permitindo que realizemos edições gráficas posteriormente-->
+                <div>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reprehenderit sint magnam iure quos tempora esse culpa sit quis! Veniam rem a id in sit. A, iure! Vel hic beatae quia.</p>
+                <a href="0">link</a>
+                </div>
+                <div>
+
+                </div>
+            </section>
+
+            <section>
+                <h2>Outra sessão</h2>
+                <p>Exemplo de separaçao de sessões</p>
+            </section>
+
+    </main>
+
+    <!--Rodapé do nosso site, dentro da tag <footer> devemos colocar as informaçoes dele-->
+    <footer>
+        <p>
+            Meu repositório: <span>https://github.com/RodrigoEsR</span>
+        </p>
+    </footer>
+
+    <!--Normalmente usado em blogs, funciona como se fosse a section-->
+    <article>
+        <h3></h3>
+        <p></p>
+        <img src="" alt="">
+    </article>
+
+    <!--Geralmente usada quando estamos usando uma imagem e queremos descreve-la-->
+    <figure>
+        <img src="/img/teste.jpeg" alt="">
+        <figcaption>Imagem dizendo que é uma area de teste</figcaption>
+    </figure>
+
+
+</body>
+</html>
